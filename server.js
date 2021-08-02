@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 8000
 app.use(morgan('tiny'));
 
 //body-parser request
-app.use(bodyparser.urlencoded({ extended:true}))
+app.use(bodyparser.urlencoded({extended:true}))
 
 //set view engine
 app.set("view engine","ejs")
